@@ -69,6 +69,7 @@ Abra seu terminal e clone o repositório do projeto:
 
   ```bash
   git clone https://github.com/yMiguelzin/psw-returnal-project-3.git
+
   ```
  
 2. **Ative o ambiente virtual (opcional, mas recomendado)**:
@@ -76,8 +77,6 @@ Abra seu terminal e clone o repositório do projeto:
   Navegue até a pasta do projeto e crie/ative um ambiente virtual:
 
   ```bash
-  Copiar código
-  
   # Criar
     
   #Linux
@@ -85,6 +84,7 @@ Abra seu terminal e clone o repositório do projeto:
     
   #Windows
   python -m venv venv
+
   ```
 
 Após a criação do venv vamos ativa-lo:
@@ -114,6 +114,7 @@ Após a criação do venv vamos ativa-lo:
   pip install django-ninja
   pip install pillow
   pip install qrcode
+
   ```
 
 4. **Configuração do Banco de Dados**:
@@ -121,10 +122,11 @@ Após a criação do venv vamos ativa-lo:
   Aplique as migrações para configurar o banco de dados SQLite:
 
   ```bash
-  Copiar código
+  #Dependências
 
   python manage.py makemigrations
   python manage.py migrate
+
   ```
 
 5. **Execute o servidor de desenvolvimento localmente**:
@@ -132,7 +134,7 @@ Após a criação do venv vamos ativa-lo:
 Inicie o servidor de desenvolvimento para rodar a aplicação localmente:
 
   ```bash
-  Copiar código
+  #Terminal
 
   python manage.py runserver
   O servidor será executado em http://localhost:8000/diario/
