@@ -63,11 +63,11 @@ As seguintes tecnologias e bibliotecas foram utilizadas no desenvolvimento do pr
 
 1. **Clone o repositório**:
 
-   Abra seu terminal e clone o repositório do projeto:
+Abra seu terminal e clone o repositório do projeto:
 
-   ```bash
-   git clone https://github.com/yMiguelzin/psw-returnal-project-3.git
-   ```
+  ```bash
+  git clone https://github.com/yMiguelzin/psw-returnal-project-3.git
+  ```
    
 2. **Ative o ambiente virtual (opcional, mas recomendado)**:
 
