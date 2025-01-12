@@ -93,15 +93,14 @@ Após a criação do venv vamos ativa-lo:
 
   ```bash
   #Ativar
-  #
-  - Linux
+  
+  #Linux
   source venv/bin/activate
   
-  #
-  - Windows
+  #Windows
   venv\Scripts\Activate
 
-  # Caso algum comando retorne um erro de permissão execute o código e tente novamente:
+  #Caso algum comando retorne um erro de permissão execute o código e tente novamente:
   Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
   ```
@@ -139,7 +138,7 @@ Após a criação do venv vamos ativa-lo:
 
   python manage.py runserver
 
-  - Acesse o endereço http://localhost:8000 no navegador para usar o projeto.
+  #Acesse o endereço http://localhost:8000 no navegador para usar o projeto.
   ```
 
 <br>
