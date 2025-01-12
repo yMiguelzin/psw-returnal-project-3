@@ -36,7 +36,7 @@ O objetivo deste projeto é fornecer um **encurtador de links** funcional com su
 - **Desativação de links** a qualquer momento.
 
 <p align="center">
-  <img src="NinaAPI.png" alt="Swagger">
+  <img src="NinjaAPI.png" alt="Swagger">
 </p>
 
 <br>
