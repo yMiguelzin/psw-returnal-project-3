@@ -68,20 +68,45 @@ Abra seu terminal e clone o repositório do projeto:
   ```bash
   git clone https://github.com/yMiguelzin/psw-returnal-project-3.git
   ```
-   
+  
+<br>
+ 
 2. **Ative o ambiente virtual (opcional, mas recomendado)**:
 
   Navegue até a pasta do projeto e crie/ative um ambiente virtual:
 
   ```bash
   Copiar código
+  
+  # Criar
+    
+  #Linux
+  python3 -m venv venv
+    
+  #Windows
   python -m venv venv
-  # Ative o ambiente virtual:
-  # No Windows:
-  venv\Scripts\activate
-  # No macOS/Linux:
+  ```
+
+<br>
+
+Após a criação do venv vamos ativa-lo:
+
+  ```bash
+  #Ativar
+  #
+  - Linux
   source venv/bin/activate
-   ```
+  
+  #
+  - Windows
+  venv\Scripts\Activate
+
+  # Caso algum comando retorne um erro de permissão execute o código e tente novamente:
+  Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+  ```
+
+<br>
 
 3. **Instale as dependências**:
 
@@ -89,6 +114,7 @@ Abra seu terminal e clone o repositório do projeto:
 
   ```bash
   Copiar código
+
   pip install django
   pip install django-ninja
   pip install pillow
@@ -101,6 +127,7 @@ Abra seu terminal e clone o repositório do projeto:
 
   ```bash
   Copiar código
+
   python manage.py makemigrations
   python manage.py migrate
   ```
@@ -109,8 +136,10 @@ Abra seu terminal e clone o repositório do projeto:
 
   ```bash
   Copiar código
+
   python manage.py runserver
-  Acesse o endereço http://localhost:8000 no navegador para usar o projeto.
+
+  - Acesse o endereço http://localhost:8000 no navegador para usar o projeto.
   ```
 
 <br>
