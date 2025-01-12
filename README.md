@@ -68,8 +68,6 @@ Abra seu terminal e clone o repositório do projeto:
   ```bash
   git clone https://github.com/yMiguelzin/psw-returnal-project-3.git
   ```
-  
-<br>
  
 2. **Ative o ambiente virtual (opcional, mas recomendado)**:
 
@@ -87,8 +85,6 @@ Abra seu terminal e clone o repositório do projeto:
   python -m venv venv
   ```
 
-<br>
-
 Após a criação do venv vamos ativa-lo:
 
   ```bash
@@ -104,8 +100,6 @@ Após a criação do venv vamos ativa-lo:
   Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
   ```
-
-<br>
 
 3. **Instale as dependências**:
 
@@ -132,16 +126,17 @@ Após a criação do venv vamos ativa-lo:
   ```
 
 5. **Execute o servidor de desenvolvimento localmente**:
+   
+Inicie o servidor de desenvolvimento para rodar a aplicação localmente:
 
   ```bash
   Copiar código
 
   python manage.py runserver
+  O servidor será executado em http://localhost:8000/diario/
+  Abra esse endereço no seu navegador para começar a usar a aplicação.
 
-  #Acesse o endereço http://localhost:8000 no navegador para usar o projeto.
   ```
-
-<br>
 
 ## Licença
 <a href="https://opensource.org/licenses/MIT">
