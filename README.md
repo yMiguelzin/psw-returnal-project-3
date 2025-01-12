@@ -117,7 +117,7 @@ Após a criação do venv vamos ativa-lo:
   pip install django
   pip install django-ninja
   pip install pillow
-  pip install qrcode]
+  pip install qrcode
   ```
 
 4. **Configuração do Banco de Dados**:
