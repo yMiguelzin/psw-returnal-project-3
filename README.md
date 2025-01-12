@@ -35,6 +35,8 @@ O objetivo deste projeto é fornecer um **encurtador de links** funcional com su
 - **Gerar QR Codes** para os links encurtados.
 - **Desativação de links** a qualquer momento.
 
+<br>
+
 <p align="center">
   <img src="NinjaAPI.png" alt="Swagger">
 </p>
